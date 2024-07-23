@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+}
+
+.cell {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.status {
+  margin: 20px;
+}
