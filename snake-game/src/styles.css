@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  height: 15rem;
+  width: 15rem;
+  border: 2px solid black;
+}
+
+.cell {
+  border: 1px solid gray;
+}
+
+.food {
+  background-color: red;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.snake {
+  background-color: chartreuse;
+}
